@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Jacob Albanese</title>
+    <title>Jacob Albanese - Games</title>
 </head>
 
 <body>
@@ -9,27 +9,36 @@
     <div class="navbar">
         <img src="Resources/Jacob_icon.jpg" id="logo">
         <strong id="name">Jacob Albanese</strong>
-        <a class="active" href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="about_me.html">About Me</a>
-        <a href="games.html">Web Games</a>
+        <a class="active" href="games.html">Web Games</a>
         <a href="https://www.google.com/search?q=coming+soon&source=lmns&bih=969&biw=1920&rlz=1C1MSIM_enCA870CA870&hl=en&sa=X&ved=2ahUKEwjwq4zxnM_uAhUXYM0KHegoBFEQ_AUoAHoECAEQAA" target="_blank">Photography</a>
         <a href="https://waterfordcomputerr.wixsite.com/home" target="_blank">Waterford Computer Repairs</a>
         <a href="https://github.com/Jalbanese1441" target="_blank">GitHub</a>
       </div>
 
-    <img src="Resources/Jacob.jpg" id="myPhoto"> 
-    <p id="bodyParagraph">
-      Hi, my name is Jacob Albanese, thanks for checking out my webpage. 
-      I love technology, travel, business and economics. If you want to learn more about me click “About Me” at the top of this page.
-      This is the first version of my website, I am hoping to provide an update soon.
-     </p>
+      <h1 id="title">Web Games</h1>
+
+      <div>
+        <a id="img" href="Resources/WebGames/snake.html" target="_blank">
+          <img src="Resources/Snake_icon.png">
+        </a>
+      </div>
+
+      <div>
+        <a id="img" href="Resources/WebGames/Bouncy Block.html" target="_blank">
+          <img src="Resources/Bouncy_Block_icon.png">
+        </a>
+      </div>
+
+      <img id="img" src="Resources/Coming_soon_.png">
 
 </body>
 
 <style>
-  
+
   body {
-      margin: 0;
+    margin: 0;
   }
 
   .navbar {
@@ -39,11 +48,11 @@
   }
 
   #logo {
-      float: left;
-      padding-left: 10px;
-      height: 40px;
-      width: 40px;
-      border-radius: 50%;
+    float: left;
+    padding-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
   }
 
   #name {
@@ -67,31 +76,33 @@
   }
 
   .navbar a:hover {
-      background-color: #000;
+    background-color: #000;
   }
 
 
   .navbar a.active {
-    background-color: #51d9f1;
-    color: rgb(0, 0, 0);
+  background-color: #51d9f1;
+  color: rgb(0, 0, 0);
   }
 
-  #myPhoto {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 100px;
-      width: 45%;
-      border-radius: 8px;
+  #title {
+    padding-top: 75px;
+    text-align: center;
+    font-size: 80px;
   }
-
-  #bodyParagraph {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 60%;
-      padding-top: 60Px;
-      font-size: 25px;
+  
+  #img {
+    float: left;
+    border: 5px solid black;
+    padding-left: 80px;
+    width: 28%;
   }
+  
+  img {
+    float: left;
+    width:  100%;
+    height: 40%;
+    object-fit: cover;
+}
 
 </style>
