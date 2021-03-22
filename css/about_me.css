@@ -1,0 +1,177 @@
+.custom-text {
+    padding-top: .5em;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 3.5em;
+}
+
+.custom-btn {
+    width: 60% !important;
+}
+
+.img-fluid {
+    padding-top: 10em;
+}
+
+#gpu {
+    padding-top:0;
+}
+
+img {
+    width: 100%;
+    max-height: 575px;
+    display: block;
+}
+
+#custom-title {
+    padding-top: 1em;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 3em;
+}
+
+.custom-heading {
+    padding-top: .8em;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.list-heading {
+    text-align: center;
+}
+
+p {
+    font-size: 24px !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .custom-text {
+        padding-top: 0.1em;
+        font-size: 2.5em;
+    }
+
+    #custom-title {
+        padding-top: .5em;
+        font-size: 2em;
+    }
+
+    .custom-btn {
+        width: 80% !important;
+    }
+
+    img {
+        width: 60%;
+        max-height: 300px;
+    }
+
+    .img-fluid {
+        padding-top: 0em;
+    }
+
+}
+
+
+ol.custom-list > li::before, ol.custom-list > li {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+ol.custom-list {
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+}
+
+ol.custom-list > li {
+  background: white;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+  position: relative;
+}
+
+ol.custom-list > li::before, ol.custom-list > li::after {
+  background: linear-gradient(135deg, #83e4e2 0%, #a2ed56 100%);
+  border-radius: 1rem 1rem 0 1rem;
+  content: "";
+  height: 3rem;
+  left: -1rem;
+  overflow: hidden;
+  position: absolute;
+  top: -1rem;
+  width: 3rem;
+}
+
+ol.custom-list > li::before {
+  align-items: flex-end;
+  content: "\2713";
+  color: #1d1f20;
+  display: flex;
+  font: 900 1.5em/1 "Montserrat";
+  justify-content: flex-end;
+  padding: 0.125em 0.25em;
+  z-index: 1;
+}
+
+ol.custom-list > li:nth-child(10n+1):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+}
+
+ol.custom-list > li:nth-child(10n+2):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+}
+
+ol.custom-list > li:nth-child(10n+3):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+}
+
+ol.custom-list > li:nth-child(10n+4):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+}
+
+ol.custom-list > li:nth-child(10n+5):before {
+  background: linear-gradient(135deg, #a2ed56 0%, #fddc32 100%);
+}
+
+ol.custom-list > li:nth-child(10n+6):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+}
+
+ol.custom-list > li:nth-child(10n+7):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+}
+
+ol.custom-list > li:nth-child(10n+8):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+}
+
+ol.custom-list > li:nth-child(10n+9):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+}
+
+ol.custom-list > li:nth-child(10n+10):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0) 0%, rgba(253, 220, 50, 0) 100%);
+}
+
+ol.custom-list > li + li {
+  margin-top: 2rem;
+}

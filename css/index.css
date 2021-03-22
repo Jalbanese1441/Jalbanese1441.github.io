@@ -1,0 +1,19 @@
+.custom-img {
+    width: 65em;
+}
+
+.custom-text {
+    padding-top: 2em;
+    width: 80em;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .custom-text {
+        padding-top: 1.8em;
+        width: auto;
+    }
+
+}

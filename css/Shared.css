@@ -1,0 +1,64 @@
+/* This contains the Bootstrap CSS override code as well as provides similar styling between pages */
+
+.icon {
+    margin-left: 5px;
+    float: left;
+    padding-left: 1px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-dark {
+    background-color: #DCE1E3 !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav a:hover {
+    color: rgb(34, 165, 218) !important; 
+    transition: none;
+    text-decoration:underline;
+}
+
+
+.navbar-brand {
+    font-family: 'Abhaya Libre', serif;
+    color: rgb(0, 0, 0) !important;
+    margin-left: 5px;
+    font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+body {
+    background-color: #DCE1E3;
+}
+
+
+html {
+    scroll-behavior: smooth;
+   }
+
+.custom-container {
+    padding-top: 2.5em;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .custom-container {
+        padding-top: 1em;
+    }
+
+}
