@@ -1,97 +1,90 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <!-- Meta tags-->
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Jacob Albanese</title>
+
+    <!-- Google fonts: -->
+    
+    <!-- Abhaya Libre, serif -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap" rel="stylesheet">
+    
+    <!-- Lato, sans-serif -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- My CSS **** I may remove the inxed later-->
+    <link rel="stylesheet" href="css/Shared.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    <!-- Navigation bar -->
+    <!-- If the screen has a width below 992 pixels then the nav bar will be a nav menu -->
+    <nav class="navbar custom-toggler navbar-expand-sm navbar-dark bg-dark">
+        <div class="navbar-brand d-none d-md-block">
+            <img class="icon" src="images/icon.jpg">
+        </div>
+        <div href="#" class="navbar-brand">Jacob Albanese</div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/about_me.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/games.html" class="nav-link">Web Games and Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://500px.com/p/jalbanese1441" target="_blank" class="nav-link">Photography</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://waterfordcomputerr.wixsite.com/home" target="_blank" class="nav-link">Waterford Computer Repairs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/Jalbanese1441" target="_blank" class="nav-link">GitHub</a>
+                </li>             
+            </ul>
+        </div>
+    </nav>
 
-    <div class="navbar">
-        <img src="Resources/Jacob_icon.jpg" id="logo">
-        <strong id="name">Jacob Albanese</strong>
-        <a class="active" href="index.html">Home</a>
-        <a href="about_me.html">About Me</a>
-        <a href="games.html">Web Games</a>
-        <a href="https://www.google.com/search?q=coming+soon&source=lmns&bih=969&biw=1920&rlz=1C1MSIM_enCA870CA870&hl=en&sa=X&ved=2ahUKEwjwq4zxnM_uAhUXYM0KHegoBFEQ_AUoAHoECAEQAA" target="_blank">Photography</a>
-        <a href="https://waterfordcomputerr.wixsite.com/home" target="_blank">Waterford Computer Repairs</a>
-        <a href="https://github.com/Jalbanese1441" target="_blank">GitHub</a>
-      </div>
 
-    <img src="Resources/Jacob.jpg" id="myPhoto"> 
-    <p id="bodyParagraph">
-      Hi, my name is Jacob Albanese, thanks for checking out my webpage. 
-      I love technology, travel, business and economics. If you want to learn more about me click “About Me” at the top of this page.
-      This is the first version of my website, I am hoping to provide an update soon.
-     </p>
+    <div class="container-fluid custom-container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="images/Jacob.jpg" class="img-fluid mx-auto d-block custom-img rounded" alt="Responsive image of Jacob overlooking a sunset">
+            </div>
+        </div>
+        <div class="row custom-text mx-auto">
+            <div class="col-md-12">
+                <p>Hi, my name is Jacob Albanese, thanks for checking out my webpage. I love technology, travel, business and economics. 
+                    If you want to learn more about me click “About Me” at the top of this page. This is the second version of my website.
+                    On my next update I plan on rewording some of my paragraphs, adding photo albums and general bug fixes.
+                 </p>
+            </div>
+        </div>
+    </div>
 
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
-<style>
-  
-  body {
-      margin: 0;
-  }
-
-  .navbar {
-    background-color: #333;
-    overflow: auto;
-    width: 100%;
-  }
-
-  #logo {
-      float: left;
-      padding-left: 10px;
-      height: 40px;
-      width: 40px;
-      border-radius: 50%;
-  }
-
-  #name {
-    float: left;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-    width: 10%;
-    max-height: 17px;
-  }
-
-  .navbar a {
-    float: left;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    width: 12%;
-    text-align: center;
-  }
-
-  .navbar a:hover {
-      background-color: #000;
-  }
-
-
-  .navbar a.active {
-    background-color: #51d9f1;
-    color: rgb(0, 0, 0);
-  }
-
-  #myPhoto {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 100px;
-      width: 45%;
-      border-radius: 8px;
-  }
-
-  #bodyParagraph {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 60%;
-      padding-top: 60Px;
-      font-size: 25px;
-  }
-
-</style>
+</html>
