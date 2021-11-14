@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #455A64;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    padding-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+h2 {
+    padding-top: 40px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#model {
+    padding-left: 10%;
+}
+
+model-viewer {
+  width: 500px;
+  height: 500px;
+}
+
+#carouselExampleCaptions {
+    padding: 10%;
+    margin-top: -11%;
+}
+
+.carousel-indicators {
+    padding: 50px;
+}
+
+img {
+    opacity: 0;
+}
+
+#diagram {
+    opacity: 1;
+    padding-left: 8px;
+
+}
+
+.custom-text {
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-top: -128%;
+}
+
+.references {
+    text-align: left;
+    font-size: 12px;
+}
+
+  a:link {
+    color: #15cae2;
+    background-color: transparent;
+    text-decoration: none;
+  }
